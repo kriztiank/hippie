@@ -1,0 +1,16 @@
+.btn {
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 13px;
+  box-shadow: 3px 3px 3px #ccc;
+}
+
+.btn-yellow {
+  background: var(--primary-color);
+  color: var(--text-color-white);
+}
+
+.btn-yellow:hover {
+  background: var(--primary-color-hover);
+  color: var(--text-color-white);
+}

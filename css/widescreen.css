@@ -1,0 +1,45 @@
+
+/* Large devices (desktops, 900px and up) */
+
+@media (min-width: 900px) {
+  .header-start,
+  .header-collection {
+    min-height: 70vh;
+  }
+
+  .header-wrap p {
+    max-width: 900px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .grid-columns-start {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid-columns-collection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin: 20px;
+    text-align: left;
+  }
+
+  .product-columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    margin: 20px;
+    text-align: left;
+  }
+}

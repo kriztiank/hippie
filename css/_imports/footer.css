@@ -1,0 +1,15 @@
+footer {
+  text-align: center;
+  background: #000;
+  color: var( --text-color-white);
+  height: 80px;
+  padding: 1rem;
+}
+
+.footer-icons {
+  padding: 1rem;
+}
+
+.footer-icons .icons {
+  margin-right: 0.8rem;
+}

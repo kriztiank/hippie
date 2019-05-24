@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  /* align x axis */
+  justify-content: center;
+  background: #000;
+  line-height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  display: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--primary-color-hover);
+}

@@ -1,0 +1,46 @@
+:root {
+  /* COLORS */
+  /* text, buttons, borders, forms. etc.*/
+
+  --primary-color: rgb(255, 185, 20);
+  --primary-color-hover: rgba(255, 185, 20, 0.8);
+
+  --secondary-color: rgb(147, 107, 12);
+  --secondary-color-hover: rgba(147, 107, 12, 0.8);
+
+  --text-color-white: rgb(255, 255, 255);
+  --text-color-white-hover: rgba(255, 255, 255, 0.8);
+
+  /* backgrounds */
+
+  --bg-color-white: rgb(255, 255, 255);
+  --bg-color-white-darken: hsl(0, 0%, 90%);
+
+  /* TYPOGRAPHY */
+
+  --primary-font: 'Montserrat', sans-serif;
+  --secondary-font: 'Lato', sans-serif;
+
+  /* ANIMATION */
+
+  --ease-in: all 0.5s ease-in;
+}
+
+/* body {
+  color: var(--primary-color);
+  color: var(--primary-color-hover);
+
+  color: var(--secondary-color);
+  color: var(--secondary-color-hover);
+
+  color: var(--text-color-white);
+  color: var(--text-color-white-darken);
+
+  background: var(--bg-color-white);
+  background: var(--bg-color-white-darken);
+    
+  font-family: var(--primary-font);
+  font-family: var(--secondary-font);
+
+  transition: var(--ease-in);
+} */

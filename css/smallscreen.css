@@ -1,0 +1,32 @@
+
+/* Small devices (landscape phones, 600px and up) */
+
+@media (min-width: 600px) {
+  .logo {
+    flex-grow: 1;
+    display: block;
+  }
+
+  .logo img {
+    text-align: left;
+    /* Top, Right, Bottom, Left */
+    margin: 20px 0 0 20px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .nav-local {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .grid-columns-start {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
