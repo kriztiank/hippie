@@ -1,3 +1,4 @@
 # hippie
 Webdesign, Web Development school project.
-# https://hippie-shop.netlify.com/
+
+https://hippie-shop.netlify.com/
