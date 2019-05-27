@@ -1,7 +1,10 @@
 .btn {
-  padding: 10px 30px;
+  /* Default button styles removed */
+  all: unset;
+  padding: 15px 30px;
   text-decoration: none;
-  font-size: 13px;
+  font-size: 14px;
+  cursor: pointer;
   box-shadow: 3px 3px 3px #ccc;
 }
 
